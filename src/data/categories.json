@@ -1,0 +1,806 @@
+{
+    "categories": [
+      {
+        "id": 1,
+        "title": "Application Purpose and Functionality",
+        "subcategories": [
+          {
+            "id": "a",
+            "title": "Primary purpose",
+            "questions": [
+              {
+                "id": "i",
+                "label": "What is the primary purpose of the application?",
+                "type": "radio",
+                "options": [
+                  "Web application",
+                  "Mobile application",
+                  "API service",
+                  "Data processing",
+                  "Streaming service",
+                  "E-commerce"
+                ],
+                "otherOption": true
+              }
+            ]
+          },
+          {
+            "id": "b",
+            "title": "Key functionalities",
+            "questions": [
+              {
+                "id": "i",
+                "label": "What are the key functionalities that the application must support?",
+                "type": "checkbox",
+                "options": [
+                  "User authentication",
+                  "Content delivery",
+                  "Data storage and retrieval",
+                  "Real-time communication",
+                  "Payment processing"
+                ],
+                "otherOption": true
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "title": "User Demographics and Usage Patterns",
+        "subcategories": [
+          {
+            "id": "a",
+            "title": "Target users",
+            "questions": [
+              {
+                "id": "i",
+                "label": "Who are your target users for the application?",
+                "type": "checkbox",
+                "options": [
+                  "General public",
+                  "Businesses",
+                  "Internal employees"
+                ],
+                "otherOption": true
+              }
+            ]
+          },
+          {
+            "id": "b",
+            "title": "Estimated number of concurrent users",
+            "questions": [
+              {
+                "id": "i",
+                "label": "What is the estimated number of concurrent users you expect to support?",
+                "type": "radio",
+                "options": [
+                  "Less than 100",
+                  "100 - 1,000",
+                  "1,000 - 10,000",
+                  "10,000 - 100,000",
+                  "More than 100,000"
+                ]
+              }
+            ]
+          },
+          {
+            "id": "c",
+            "title": "Expected peak usage times",
+            "questions": [
+              {
+                "id": "i",
+                "label": "When do you anticipate the application will experience peak usage?",
+                "type": "checkbox",
+                "options": [
+                  "Morning",
+                  "Afternoon",
+                  "Evening",
+                  "Weekends"
+                ],
+                "otherOption": true
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "title": "Geographic Distribution",
+        "subcategories": [
+          {
+            "id": "a",
+            "title": "User locations",
+            "questions": [
+              {
+                "id": "i",
+                "label": "Where are your primary user locations or target regions?",
+                "type": "checkbox",
+                "options": [
+                  "North America",
+                  "Europe",
+                  "Asia",
+                  "South America",
+                  "Africa",
+                  "Oceania",
+                  "Global (across all regions)"
+                ],
+                "otherOption": true
+              }
+            ]
+          },
+          {
+            "id": "b",
+            "title": "Need for multi-region deployment",
+            "questions": [
+              {
+                "id": "i",
+                "label": "Do you require the application to be deployed in multiple regions for redundancy and performance optimization?",
+                "type": "radio",
+                "options": [
+                  "Yes",
+                  "No",
+                  "Maybe (need more information)"
+                ]
+              }
+            ]
+          },
+          {
+            "id": "c",
+            "title": "Data residency requirements",
+            "questions": [
+              {
+                "id": "i",
+                "label": "Are there any specific data residency requirements or regulations that dictate where user data can be stored or processed?",
+                "type": "radio",
+                "options": [
+                  "Yes",
+                  "No"
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": 4,
+        "title": "Performance Requirements",
+        "subcategories": [
+          {
+            "id": "a",
+            "title": "Response time requirements",
+            "questions": [
+              {
+                "id": "i",
+                "label": "What are your response time expectations for the application?",
+                "type": "radio",
+                "options": [
+                  "Less than 100ms",
+                  "100ms - 500ms",
+                  "500ms - 1s",
+                  "More than 1s"
+                ]
+              }
+            ]
+          },
+          {
+            "id": "b",
+            "title": "Expected throughput (RPS - Requests Per Second)",
+            "questions": [
+              {
+                "id": "i",
+                "label": "What is the expected throughput (RPS) for your application?",
+                "type": "radio",
+                "options": [
+                  "Less than 100 RPS",
+                  "100 - 1,000 RPS",
+                  "1,000 - 10,000 RPS",
+                  "10,000 - 100,000 RPS",
+                  "More than 100,000 RPS"
+                ]
+              }
+            ]
+          },
+          {
+            "id": "c",
+            "title": "Specific performance benchmarks/SLAs",
+            "questions": [
+              {
+                "id": "i",
+                "label": "Do you have specific performance benchmarks or Service Level Agreements (SLAs) that need to be met?",
+                "type": "radio",
+                "options": [
+                  "Yes",
+                  "No"
+                ]
+              }
+            ]
+          },
+          {
+            "id": "d",
+            "title": "High availability requirements",
+            "questions": [
+              {
+                "id": "i",
+                "label": "What are your requirements for high availability of the application?",
+                "type": "radio",
+                "options": [
+                  "Continuous availability (24/7 uptime)",
+                  "High availability with failover mechanisms"
+                ],
+                "otherOption": true
+              }
+            ]
+          },
+          {
+            "id": "e",
+            "title": "Scalability under load",
+            "questions": [
+              {
+                "id": "i",
+                "label": "How do you anticipate the application to perform under load conditions?",
+                "type": "radio",
+                "options": [
+                  "Ability to handle spikes in traffic",
+                  "Auto-scaling based on traffic patterns"
+                ],
+                "otherOption": true
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": 5,
+        "title": "Application Type and Architecture",
+        "subcategories": [
+          {
+            "id": "a",
+            "title": "Application architecture",
+            "questions": [
+              {
+                "id": "i",
+                "label": "What is the current or desired architecture of your application?",
+                "type": "radio",
+                "options": [
+                  "Monolithic",
+                  "Microservices",
+                  "Serverless",
+                  "Hybrid"
+                ],
+                "otherOption": true
+              }
+            ]
+          },
+          {
+            "id": "b",
+            "title": "Preferences for languages/frameworks",
+            "questions": [
+              {
+                "id": "i",
+                "label": "Do you have specific preferences for programming languages or frameworks for your application?",
+                "type": "radio",
+                "options": [
+                  "Yes (please specify)",
+                  "No"
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": 6,
+        "title": "Integration and Dependencies",
+        "subcategories": [
+          {
+            "id": "a",
+            "title": "Integration with other services/APIs",
+            "questions": [
+              {
+                "id": "i",
+                "label": "Specific services or APIs that the new infrastructure must integrate with? If yes, please specify the services and their functionalities.",
+                "type": "text"
+              }
+            ]
+          },
+          {
+            "id": "b",
+            "title": "Third-party services/dependencies",
+            "questions": [
+              {
+                "id": "i",
+                "label": "Do you currently rely on any third-party services or dependencies for your operations? If yes, please specify the services and their roles in your infrastructure.",
+                "type": "text"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": 7,
+        "title": "Deployment Frequency and Management",
+        "subcategories": [
+          {
+            "id": "a",
+            "title": "Deployment frequency",
+            "questions": [
+              {
+                "id": "i",
+                "label": "What is your preferred deployment frequency?",
+                "type": "radio",
+                "options": [
+                  "Daily",
+                  "Weekly",
+                  "Monthly",
+                  "Quarterly"
+                ],
+                "otherOption": true
+              }
+            ]
+          },
+          {
+            "id": "b",
+            "title": "Preferred deployment strategies",
+            "questions": [
+              {
+                "id": "i",
+                "label": "How do you prefer to manage deployments?",
+                "type": "checkbox",
+                "options": [
+                  "Rolling updates",
+                  "Blue/Green deployments",
+                  "Canary releases"
+                ],
+                "otherOption": true
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": 8,
+        "title": "Development and Operations Team",
+        "subcategories": [
+          {
+            "id": "a",
+            "title": "Number of developers",
+            "questions": [
+              {
+                "id": "i",
+                "label": "How many developers are currently on your team?",
+                "type": "radio",
+                "options": [
+                  "Less than 5",
+                  "5 - 10",
+                  "10 - 50",
+                  "More than 50"
+                ]
+              }
+            ]
+          },
+          {
+            "id": "b",
+            "title": "Number of operations/DevOps engineers",
+            "questions": [
+              {
+                "id": "i",
+                "label": "How many operations/DevOps engineers are currently on your team?",
+                "type": "radio",
+                "options": [
+                  "Less than 5",
+                  "5 - 10",
+                  "10 - 50",
+                  "More than 50"
+                ]
+              }
+            ]
+          },
+          {
+            "id": "c",
+            "title": "Existing expertise with cloud providers/technologies",
+            "questions": [
+              {
+                "id": "i",
+                "label": "Does your team have existing expertise with cloud providers or specific technologies?",
+                "type": "radio",
+                "options": [
+                  "Yes (please specify)",
+                  "No"
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": 9,
+        "title": "Existing Infrastructure",
+        "subcategories": [
+          {
+            "id": "a",
+            "title": "Existing infrastructure integration",
+            "questions": [
+              {
+                "id": "i",
+                "label": "Are there existing systems or infrastructure components that need to be integrated into the new infrastructure design?",
+                "type": "radio",
+                "options": [
+                  "Yes (please specify)",
+                  "No"
+                ]
+              }
+            ]
+          },
+          {
+            "id": "b",
+            "title": "Constraints/requirements from existing infrastructure",
+            "questions": [
+              {
+                "id": "i",
+                "label": "Are there any specific constraints or requirements imposed by the existing infrastructure that need to be considered?",
+                "type": "text"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": 10,
+        "title": "Future Plans and Scalability",
+        "subcategories": [
+          {
+            "id": "a",
+            "title": "Growth expectations",
+            "questions": [
+              {
+                "id": "i",
+                "label": "What are your expectations for user growth over the next 1-3 years?",
+                "type": "text"
+              },
+              {
+                "id": "ii",
+                "label": "How do you anticipate data growth within your infrastructure?",
+                "type": "text"
+              }
+            ]
+          },
+          {
+            "id": "b",
+            "title": "Scalability plans",
+            "questions": [
+              {
+                "id": "i",
+                "label": "What are your current scalability plans?",
+                "type": "text"
+              },
+              {
+                "id": "ii",
+                "label": "Vertical scaling (increasing instance sizes), horizontal scaling (adding more instances), both, or other (please specify)?",
+                "type": "text"
+              },
+              {
+                "id": "iii",
+                "label": "Please specify any additional scalability requirements or considerations.",
+                "type": "text"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": 11,
+        "title": "Environment and Lifecycle Management",
+        "subcategories": [
+          {
+            "id": "a",
+            "title": "Environments",
+            "questions": [
+              {
+                "id": "i",
+                "label": "Development, Testing, or Production?",
+                "type": "checkbox",
+                "options": [
+                  "Development",
+                  "Testing",
+                  "Production"
+                ]
+              }
+            ]
+          },
+          {
+            "id": "b",
+            "title": "Configuration specifics",
+            "questions": [
+              {
+                "id": "i",
+                "label": "Specific resource sizes (e.g., CPU, memory)",
+                "type": "text"
+              },
+              {
+                "id": "ii",
+                "label": "Variable scaling thresholds",
+                "type": "text"
+              },
+              {
+                "id": "iii",
+                "label": "Do you require integration with secret management tools (e.g., AWS Secrets Manager, HashiCorp Vault)?",
+                "type": "radio",
+                "options": [
+                  "Yes",
+                  "No"
+                ]
+              },
+              {
+                "id": "iv",
+                "label": "Automated rotation policies",
+                "type": "text"
+              }
+            ]
+          },
+          {
+            "id": "c",
+            "title": "Lifecycle management",
+            "questions": [
+              {
+                "id": "i",
+                "label": "Version Control: Git-based version control (e.g., GitHub, GitLab), branching strategies (e.g., feature branches, release branches)",
+                "type": "text"
+              },
+              {
+                "id": "ii",
+                "label": "Rollback Procedures: Automated rollback scripts, manual rollback procedures with version tagging",
+                "type": "text"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": 12,
+        "title": "Monitoring, Logging, and Analytics",
+        "subcategories": [
+          {
+            "id": "a",
+            "title": "Monitoring metrics",
+            "questions": [
+              {
+                "id": "i",
+                "label": "What are the critical metrics you need to monitor for your application and infrastructure?",
+                "type": "text"
+              },
+              {
+                "id": "ii",
+                "label": "Which specific metrics are essential for maintaining optimal performance?",
+                "type": "text"
+              }
+            ]
+          },
+          {
+            "id": "b",
+            "title": "Logging requirements",
+            "questions": [
+              {
+                "id": "i",
+                "label": "What types of events do you need to log from your application and infrastructure?",
+                "type": "text"
+              },
+              {
+                "id": "ii",
+                "label": "Are there any compliance requirements (e.g., GDPR, HIPAA) that affect how you manage and retain logs?",
+                "type": "text"
+              },
+              {
+                "id": "iii",
+                "label": "If yes, please specify the compliance standards.",
+                "type": "text"
+              }
+            ]
+          },
+          {
+            "id": "c",
+            "title": "Analytics and reporting",
+            "questions": [
+              {
+                "id": "i",
+                "label": "How do you plan to utilize usage analytics for your application?",
+                "type": "text"
+              },
+              {
+                "id": "ii",
+                "label": "What specific performance insights are crucial for optimizing your infrastructure?",
+                "type": "text"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": 13,
+        "title": "Security and Compliance",
+        "subcategories": [
+          {
+            "id": "a",
+            "title": "Security measures",
+            "questions": [
+              {
+                "id": "i",
+                "label": "How do you plan to ensure data protection within your infrastructure?",
+                "type": "text"
+              },
+              {
+                "id": "ii",
+                "label": "What access control measures are needed to safeguard sensitive data?",
+                "type": "text"
+              }
+            ]
+          },
+          {
+            "id": "b",
+            "title": "Compliance standards",
+            "questions": [
+              {
+                "id": "i",
+                "label": "Are there specific regulatory requirements (e.g., GDPR, HIPAA) that your infrastructure must comply with?",
+                "type": "radio",
+                "options": [
+                  "Yes (please specify)",
+                  "No"
+                ]
+              },
+              {
+                "id": "ii",
+                "label": "If yes, please specify the compliance standards and any particular requirements.",
+                "type": "text"
+              },
+              {
+                "id": "iii",
+                "label": "Do you have data sovereignty considerations that dictate where data can be stored or processed?",
+                "type": "radio",
+                "options": [
+                  "Yes",
+                  "No"
+                ]
+              },
+              {
+                "id": "iv",
+                "label": "If yes, please outline these requirements.",
+                "type": "text"
+              }
+            ]
+          },
+          {
+            "id": "c",
+            "title": "Disaster recovery",
+            "questions": [
+              {
+                "id": "i",
+                "label": "What is your current incident response plan for handling security breaches or operational failures?",
+                "type": "text"
+              },
+              {
+                "id": "ii",
+                "label": "What are your requirements for recovery time objectives (RTO) and recovery point objectives (RPO) in case of a disaster?",
+                "type": "text"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": 14,
+        "title": "Cost Optimization and Budgeting",
+        "subcategories": [
+          {
+            "id": "a",
+            "title": "Budget allocation",
+            "questions": [
+              {
+                "id": "i",
+                "label": "What is your allocated budget for infrastructure expenses?",
+                "type": "text"
+              },
+              {
+                "id": "ii",
+                "label": "How do you plan to optimize costs within your infrastructure?",
+                "type": "text"
+              }
+            ]
+          },
+          {
+            "id": "b",
+            "title": "Resource scaling",
+            "questions": [
+              {
+                "id": "i",
+                "label": "What are your elasticity needs for scaling infrastructure resources?",
+                "type": "text"
+              },
+              {
+                "id": "ii",
+                "label": "Do you have specific scaling policies or thresholds in place?",
+                "type": "text"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": 15,
+        "title": "Automation and Orchestration",
+        "subcategories": [
+          {
+            "id": "a",
+            "title": "Automation tools",
+            "questions": [
+              {
+                "id": "i",
+                "label": "What existing automation tools or scripts are currently used in your infrastructure?",
+                "type": "text"
+              },
+              {
+                "id": "ii",
+                "label": "Are there specific automation tools you prefer or need to integrate into the infrastructure?",
+                "type": "text"
+              }
+            ]
+          },
+          {
+            "id": "b",
+            "title": "Orchestration needs",
+            "questions": [
+              {
+                "id": "i",
+                "label": "How do you envision workflow automation within your infrastructure?",
+                "type": "text"
+              },
+              {
+                "id": "ii",
+                "label": "Do you require CI/CD integration for continuous integration and deployment?",
+                "type": "text"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": 16,
+        "title": "Collaboration and Documentation",
+        "subcategories": [
+          {
+            "id": "a",
+            "title": "Team collaboration",
+            "questions": [
+              {
+                "id": "i",
+                "label": "What collaboration tools does your team currently use or prefer?",
+                "type": "text"
+              },
+              {
+                "id": "ii",
+                "label": "How do teams collaborate on infrastructure changes and updates?",
+                "type": "text"
+              }
+            ]
+          },
+          {
+            "id": "b",
+            "title": "Documentation standards",
+            "questions": [
+              {
+                "id": "i",
+                "label": "What are your expectations for infrastructure documentation?",
+                "type": "text"
+              },
+              {
+                "id": "ii",
+                "label": "How do you manage knowledge transfer and ensure team members are informed about infrastructure changes?",
+                "type": "text"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+  
