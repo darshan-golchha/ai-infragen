@@ -31,7 +31,7 @@ const InfrastructureForm = () => {
   const handleSubmit = async () => {
     setIsLoading(true);
     try {
-      const response = await fetch('http://127.0.0.1:8000/infragen_app/submit-form/', {
+      const response = await fetch('https://ai-infragen-backend.vercel.app/infragen_app/submit-form/', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify(formData),
@@ -57,7 +57,7 @@ const InfrastructureForm = () => {
     setUpdating(true); // Show loader and disable send button
 
     try {
-      const response = await fetch('http://127.0.0.1:8000/infragen_app/update-iac/', {
+      const response = await fetch('https://ai-infragen-backend.vercel.app/infragen_app/update-iac/', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({
